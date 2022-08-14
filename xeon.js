@@ -11,14 +11,14 @@
 //hai to, description me xeon ka yt channel
 // ka link paste kr dena as a cradit or github 
 //repo me bhi tag kardena baki jo
-//bhi karna hai apki marzi, thank you!🦄
+//bhi karna hai apki marzi, thank you!🚀
 //════════════════════════════//
 //If you recode and uploading on your channel
 //or copy pasting the codes in ur script, 
 //i give permission to do as long as you
 //put Xeons youtube channel link in the video
 //description and tag me on githuh repo, 
-//thank you🦄
+//thank you🚀
 //════════════════════════════//
 
 require('./settings')
@@ -143,6 +143,7 @@ let docs = pickRandom(documents)
 
     XeonBotInc.ev.on('group-participants.update', async (anu) => {
         console.log(anu)
+        if (!wlcm.includes(anu.id)) return
         try {
             let metadata = await XeonBotInc.groupMetadata(anu.id)
             let participants = anu.participants
@@ -174,20 +175,24 @@ XeonLft = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeUR
 	            const xmembers = metadata.participants.length
                 let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: XeonWlcm, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                 xeonbody = `┌─❖
-│「 𝗛𝗶 👋 」
-└┬❖ 「 @${xeonName.split("@")[0]}  」
-   │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
-   │✑  ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │✑ ${xmembers}th
-   │✑  𝗝𝗼𝗶𝗻𝗲𝗱 : 
-   │✑ ${xtime} ${xdate}
-   └───────────────┈ ⳹`
+ ╭────────────────
+ │   ❰⛊𝚂𝙺𝙴𝚃𝙲𝙷𝚈 𝙱𝙾𝚃⛊❱
+ ╰────────────────
+ ╭────────────────
+ │ Hello ▷ Dear
+ │ @${xeonName.split("@")[0]}
+ │ 🥰 *Welcome To our Group*
+ │ ${metadata.subject}
+ │🥵 *Joining time*
+ │   ${xtime} ${xdate}
+ │
+ │*Enjoy Yourself Here*
+ ╰────────────────`
       //if you copy the code value,
    //dont forget to put my name(Xeon) as credit
    //you fail to put, i sue you for sure!
 let buttons = [
-{buttonId: `wkwwk`, buttonText: {displayText: 'Welcome 💐'}, type: 1}
+{buttonId: `wkwwk`, buttonText: {displayText: 'Nice Time'}, type: 1}
 ]
 let buttonMessage = {
 document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
@@ -218,20 +223,24 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
                     const xeonmembers = metadata.participants.length
                     let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: xeonbuffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                     xeonbody = `┌─❖
-│「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
-└┬❖ 「 @${xeonName.split("@")[0]}  」
-   │✑  𝗟𝗲𝗳𝘁 
-   │✑ ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │✑ ${xeonmembers}th
-   │✑  𝗧𝗶𝗺𝗲 : 
-   │✑  ${xeontime} ${xeondate}
-   └───────────────┈ ⳹`
+ ╭────────────────
+ │   ❰⛊𝚂𝙺𝙴𝚃𝙲𝙷𝚈 𝙱𝙾𝚃⛊❱
+ ╰────────────────
+ ╭────────────────
+ │ BYE BYE IDIOT😂😂!!
+ │ @${xeonName.split("@")[0]}
+ │ 🥲 *Left our Group*
+ │ ${metadata.subject}
+ │🥺 *Leaving Time*
+ │   *${xeontime}*  *${xeondate}*
+ │   Mafii
+ │*YOU ARE A Useless Being*
+ ╰────────────────`
       //if you copy the code value,
    //dont forget to put my name(Xeon) as credit
    //you fail to put, i sue you for sure!
 let buttons = [
-{buttonId: `wkwkwk`, buttonText: {displayText: 'Sayonara 🥀'}, type: 1}
+{buttonId: `wkwkwk`, buttonText: {displayText: 'Rot in Hell'}, type: 1}
 ]
 let buttonMessage = {
 document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
@@ -333,13 +342,13 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
         if (connection === 'close') {
         let reason = new Boom(lastDisconnect?.error)?.output.statusCode
             if (reason === DisconnectReason.badSession) { console.log(`Bad Session File, Please Delete Session and Scan Again`); XeonBotInc.logout(); }
-            else if (reason === DisconnectReason.connectionClosed) { console.log("🦄Connection closed, reconnecting...."); startXeonBotInc(); }
-            else if (reason === DisconnectReason.connectionLost) { console.log("🦄Connection Lost from Server, reconnecting..."); startXeonBotInc(); }
-            else if (reason === DisconnectReason.connectionReplaced) { console.log("🦄Connection Replaced, Another New Session Opened, Please Close Current Session First"); XeonBotInc.logout(); }
-            else if (reason === DisconnectReason.loggedOut) { console.log(`🦄Device Logged Out, Please Scan Again And Run.`); XeonBotInc.logout(); }
-            else if (reason === DisconnectReason.restartRequired) { console.log("🦄Restart Required, Restarting..."); startXeonBotInc(); }
-            else if (reason === DisconnectReason.timedOut) { console.log("🦄Connection TimedOut, Reconnecting..."); startXeonBotInc(); }
-            else XeonBotInc.end(`🦄Unknown DisconnectReason: ${reason}|${connection}`)
+            else if (reason === DisconnectReason.connectionClosed) { console.log("🚀Connection closed, reconnecting...."); startXeonBotInc(); }
+            else if (reason === DisconnectReason.connectionLost) { console.log("🚀Connection Lost from Server, reconnecting..."); startXeonBotInc(); }
+            else if (reason === DisconnectReason.connectionReplaced) { console.log("🚀Connection Replaced, Another New Session Opened, Please Close Current Session First"); XeonBotInc.logout(); }
+            else if (reason === DisconnectReason.loggedOut) { console.log(`🚀Device Logged Out, Please Scan Again And Run.`); XeonBotInc.logout(); }
+            else if (reason === DisconnectReason.restartRequired) { console.log("🚀Restart Required, Restarting..."); startXeonBotInc(); }
+            else if (reason === DisconnectReason.timedOut) { console.log("🚀Connection TimedOut, Reconnecting..."); startXeonBotInc(); }
+            else XeonBotInc.end(`🚀Unknown DisconnectReason: ${reason}|${connection}`)
         }
         console.log('Connected...', update)
     })
