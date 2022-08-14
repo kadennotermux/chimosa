@@ -56,8 +56,8 @@ global.doc6 = 'application/vnd.android.package-archive'
 //owmner v card
 global.vcardowner = ['254792893310'] //ur owner number
 global.ownername = "🤑GingerBreadSketchy" //ur owner name
-global.ytname = "YT: Xeon" //ur yt chanel name
-global.socialm = "GitHub: DGXeon" //ur github or insta name
+global.ytname = "YT:GingerBreadSketchy" //ur yt chanel name
+global.socialm = "GitHub: GingerBreadSketchy" //ur github or insta name
 global.location = "India, Mizoram, Aizawl" //ur location
 
 //bot bomdy 
@@ -67,8 +67,8 @@ global.botname = 'Sketchy Bot' //ur bot name
 global.linkz = "https://giveit.link/gingerbreadsketchy" //your theme url which will be displayed on whatsapp
 global.websitex = "https://giveit.link/gingerbreadsketchy" //ur website to be displayed
 global.botscript = 'https://github.com/GingerBreadSketchy' //script link
-global.reactmoji = "💆🏽‍♂" //ur menu react emoji
-global.themeemoji = "🤑" //ur theme emoji
+global.reactmoji = "😊" //ur menu react emoji
+global.themeemoji = "🟣" //ur theme emoji
 global.packname = "Sketchy Bot Stickers\n\n\n\n\n\n\n\n\n\n\n🤑🤑🤑 " //ur sticker watermark packname
 global.author = "🤑GingerBreadSketchy" //ur sticker watermark author
 
