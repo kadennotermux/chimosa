@@ -87,12 +87,12 @@ global.ntilinkfb = []
 global.ntilinktg = []
 global.ntilinktt = []
 global.ntilinktwt = []
-global.ntilinkall = ["on"]
-global.nticall = []
+global.ntilinkall = ['on']
+global.nticall = ['on']
 global.ntwame = []
 global.nttoxic = []
 global.ntnsfw = []
-global.ntvirtex = []
+global.ntvirtex = ['on']
 global.rkyt = []
 global.wlcm = []
 global.gcrevoke = []
@@ -112,7 +112,7 @@ global.mess = {
     group: 'Feature Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This Feature Is Only For Bot',
-    wait: 'In process...',
+    wait: 'Loading☢.',
     linkm: 'Where is the link?',
     error: 'Error!!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
