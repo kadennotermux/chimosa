@@ -1113,7 +1113,7 @@ const latensie = speed() - timestampe
  │🤖 *BOTNAME:* ${global.botname}
  │👨🏽‍✈️ *BOT OWNER:* ${global.ownername}
  │📱 *PLATFORM:* ${os.platform()}
- │👥 *TOTAL USERS:*  ${Object.keys(global.db.users).length}
+ │👥 *TOTAL USERS:* Many😂
  │
  │
  ╰────────────────
