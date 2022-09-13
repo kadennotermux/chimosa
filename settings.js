@@ -55,7 +55,7 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
 global.vcardowner = ['254792893310'] //ur owner number
-global.ownername = "🤑GingerBreadSketchy" //ur owner name
+global.ownername = "𝑮𝒊𝒏𝒈𝒆𝒓𝑩𝒓𝒆𝒂𝒅𝒔𝒌𝒆𝒕𝒄𝒉𝒚" //ur owner name
 global.ytname = "YT:GingerBreadSketchy" //ur yt chanel name
 global.socialm = "GitHub: GingerBreadSketchy" //ur github or insta name
 global.location = "India, Mizoram, Aizawl" //ur location
@@ -67,10 +67,10 @@ global.botname = 'Sketchy Bot' //ur bot name
 global.linkz = "https://giveit.link/gingerbreadsketchy" //your theme url which will be displayed on whatsapp
 global.websitex = "https://giveit.link/gingerbreadsketchy" //ur website to be displayed
 global.botscript = 'https://github.com/GingerBreadSketchy' //script link
-global.reactmoji = "😊" //ur menu react emoji
-global.themeemoji = "🟣" //ur theme emoji
-global.packname = "Sketchy Bot Stickers\n\n\n\n\n\n\n\n\n\n\n🤑🤑🤑 " //ur sticker watermark packname
-global.author = "🤑GingerBreadSketchy" //ur sticker watermark author
+global.reactmoji = "🪀" //ur menu react emoji
+global.themeemoji = "⬢" //ur theme emoji
+global.packname = "Sketchy Bot Stickers\n\n\🤑MADE IN 2022🤑 " //ur sticker watermark packname
+global.author = "𝑮𝒊𝒏𝒈𝒆𝒓𝑩𝒓𝒆𝒂𝒅𝒔𝒌𝒆𝒕𝒄𝒉𝒚" //ur sticker watermark author
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
@@ -87,12 +87,12 @@ global.ntilinkfb = []
 global.ntilinktg = []
 global.ntilinktt = []
 global.ntilinktwt = []
-global.ntilinkall = ['on']
-global.nticall = ['on']
+global.ntilinkall = []
+global.nticall = []
 global.ntwame = []
 global.nttoxic = []
 global.ntnsfw = []
-global.ntvirtex = ['on']
+global.ntvirtex = []
 global.rkyt = []
 global.wlcm = []
 global.gcrevoke = []
